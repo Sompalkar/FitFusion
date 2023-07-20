@@ -94,7 +94,9 @@ function Fourth() {
             <div className='banner1'>
 
                 <div className='divleft'>
+                    <Fade bottom>
                     <h1 className='divleftTitle'>Stay tuned!</h1>
+                    </Fade>
                     <p className='divleftDesc'>Get the latest articles and business updates that you need to know, you’ll even get special recommendations weekly.</p>
                 </div>
                 <div className=' divmiddle '>
@@ -111,7 +113,9 @@ function Fourth() {
               <div className='footerDivs'>
 
                    <div className='footerFirstDiv'>
+                    <Fade bottom>
                     <h1 className='footerFirstDivTitle' >LOGO</h1>
+                    </Fade>
                     <p className='footerFirstDivDesc'>Get the latest articles and business updates that you need to know, you’ll even get special recommendations weekly.</p>
                    </div>
                    <div className='footerSecondDiv'>
