@@ -24,8 +24,7 @@
 
 
 
-
-   @media screen and ( max-width: 880px){
+@media screen and ( max-width: 880px){
            .leftDiv{
             display: flex;
             flex-direction: row;
@@ -46,7 +45,7 @@
       flex-direction:column;
       flex-wrap: wrap;
       justify-content: center; 
-      margin: 20px;
+      margin: 21px;
       align-items: center;
  }
 
