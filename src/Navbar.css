@@ -1,0 +1,143 @@
+
+
+
+
+
+
+
+
+.mainDiv{
+    width:  100%;
+height: 1117px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+
+
+
+
+.navBar{
+    padding-top: 20px;
+     display: flex;
+     width:  100%;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center; 
+     position: fixed;
+     top: 0;
+     right: 0;
+     left: 0;
+     margin: auto;
+
+}
+
+.navBarLogo {
+
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font:bold;
+
+}
+.navLoginBtn{
+      
+    background-color:rgba(254, 210, 91, 0.2);
+    border: 1px solid rgba(254, 210, 91, 1);
+    color: 
+    rgba(254, 210, 91, 1);
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.navbarLinks{
+       display: flex;
+       flex-direction: row;
+       list-style: none;
+       flex-wrap: wrap;
+       text-decoration: none;
+       justify-content: space-around; 
+       width:30rem;
+       cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+    .navbarLinks {
+      /* Set the display to none when the width is 480px or less */
+      display: none;
+    }
+  }
+
+
+  .linkOptions {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .videoTag{
+
+     object-fit: cover;
+     object-position: center;
+     display: flex;
+     flex-wrap: wrap;
+     width:100%;
+  }
+
+  .quoteDiv{
+        position: absolute;
+         
+        width: 916px;
+height: 154px;
+top: 404px;
+left: 400px;
+font-size: 64px;
+font-weight: 700;
+ 
+
+        color: rgba(255, 255, 255, 1);
+
+  }
+  
+  .quoteText{
+   color: rgba(254, 210, 91, 1);
+
+  }
+  .quoteDivBtn{
+    width: 328px;
+height: 54px;
+border-radius: 12px;
+  text-align: center;
+  background-color:blue;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: large;
+  font-weight: 500;
+  cursor: pointer;
+
+  }
+
+  .assistantDiv > img{
+    position: absolute;
+    width: 110px;
+    height:110px;
+    top: 900px;  
+    right: 0;  
+    padding-left: 20px;
+    cursor: pointer;
+    object-fit: cover;
+
+
+  }
