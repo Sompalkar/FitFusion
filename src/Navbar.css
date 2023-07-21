@@ -8,7 +8,7 @@
 
 .mainDiv{
     width:  100%;
-height: 1117px;
+min-height: 1117px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -97,18 +97,27 @@ height: 1117px;
   }
 
   .quoteDiv{
-        position: absolute;
-         
-        width: 916px;
-height: 154px;
-top: 404px;
-left: 400px;
-font-size: 64px;
-font-weight: 700;
- 
+      
+      position: absolute;
+      align-items: center;
+      top: 30%;
+      left: 30%;
+      right: 50%;
+      min-width: 50%;
+      font-size: 4rem;
+  }
 
-        color: rgba(255, 255, 255, 1);
 
+  @media screen and (max-width:780px) {
+           .quoteDiv{
+
+                align-self: center;
+                margin: auto;
+                /* position: unset; */
+                
+
+           }
+    
   }
   
   .quoteText{
@@ -116,8 +125,8 @@ font-weight: 700;
 
   }
   .quoteDivBtn{
-    width: 328px;
-height: 54px;
+    max-width: 100%;
+height: 84px;
 border-radius: 12px;
   text-align: center;
   background-color:blue;
@@ -125,14 +134,16 @@ border-radius: 12px;
   color: rgba(255, 255, 255, 1);
   font-size: large;
   font-weight: 500;
-  cursor: pointer;
+  cursor: pointer; 
+  padding-left: 20px;
+  padding-right: 20px;
 
   }
 
   .assistantDiv > img{
     position: absolute;
     width: 110px;
-    height:110px;
+     min-height:110px;
     top: 900px;  
     right: 0;  
     padding-left: 20px;
@@ -141,3 +152,7 @@ border-radius: 12px;
 
 
   }
+
+
+
+  

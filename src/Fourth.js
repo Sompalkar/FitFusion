@@ -89,7 +89,7 @@ function Fourth() {
 
 
 
-
+          
 
             <div className='banner1'>
 
@@ -109,7 +109,7 @@ function Fourth() {
             </div>
 
 
-          <div>
+           
               <div className='footerDivs'>
 
                    <div className='footerFirstDiv'>
@@ -135,19 +135,14 @@ function Fourth() {
 
                     </div>
 
-                    <div className='footerSecondDivLinks' >
-                        <h3>Services</h3>
-                        <p>Service 1</p>
-                        <p>Service 2</p>
-                        <p>Service 3</p>
-
-                    </div>
+                     
 
                 </div>
                 <div className='footerSocials'>
 
                     <h2>Socials</h2>
 
+                    <Fade bottom>
                     <div className='footerSocialsSvg' >
                         <img src={instagram} alt='' />
                         <img src={twitter} alt='' />
@@ -155,18 +150,20 @@ function Fourth() {
                         <img src={linkedIn} alt='' />
 
 
+
                     </div>
+                    </Fade>
 
                     </div>
                
               
+                 
+                 </div> 
 
-                 </div>
-                 <div  className=' copyright'> ©2023 BFF. All rights reserved.</div>
+
                 
 
-
-                </div>
+        </div>
 
 
                  
@@ -191,8 +188,7 @@ function Fourth() {
 
 
 
-
-        </div>
+ 
     )
 }
 

@@ -34,7 +34,7 @@ function Navbar() {
 
                 <Fade bottom>
                 <div className='quoteDiv'>
-                    <p> Enim in  consectetur eiusod, <span className='quoteText'>
+                    <p style={{color:'white'}}> Enim in  consectetur eiusod, <span className='quoteText'>
                         Enim id enim et non  </span> </p>
                     <button className='quoteDivBtn'>Explore</button>
 

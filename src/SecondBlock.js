@@ -23,9 +23,9 @@ function SecondBlock() {
 
             <div className='rightDiv'>
 
-                <div>
+                <div  className='rightDivTitle'>
                     <Fade bottom>
-                        <h1 className='rightDivTitle'> Lorem Ipsum Dolor
+                        <h1> Lorem Ipsum Dolor
                             <span style={{ color: 'rgba(242, 189, 77, 1)' }}> lorem ipsum    </span></h1>
                     </Fade>
                 </div>
