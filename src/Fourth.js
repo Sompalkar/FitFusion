@@ -22,7 +22,8 @@ function Fourth() {
                     <p>Lorem Ipsum Dolor Emitt <span className='headingSubPart'> Enim id enim et non </span> </p>
                 </Fade>
             </div>
-
+           
+           <Fade right>
             <div className='scrollableCardDiv'>
 
                 <div className='scrollDivs'>
@@ -79,6 +80,7 @@ function Fourth() {
 
 
             </div>
+            </Fade>
 
 
 
@@ -99,13 +101,17 @@ function Fourth() {
                     </Fade>
                     <p className='divleftDesc'>Get the latest articles and business updates that you need to know, you’ll even get special recommendations weekly.</p>
                 </div>
+
+                <Fade right>
                 <div className=' divmiddle '>
                     <input type='email' placeholder='Enter Your Email ID' />
                     <button className='divmiddleBtn'>Sign Up</button>
                 </div>
+                
                 <div className='divright'>
                     <img className='divrightImg' src={assistant4} alt='' />
                 </div>
+                </Fade>
             </div>
 
 
@@ -139,10 +145,10 @@ function Fourth() {
 
                 </div>
                 <div className='footerSocials'>
-
+                <Fade right>
                     <h2>Socials</h2>
 
-                    <Fade bottom>
+                    
                     <div className='footerSocialsSvg' >
                         <img src={instagram} alt='' />
                         <img src={twitter} alt='' />

@@ -35,14 +35,19 @@ function Navbar() {
                 <Fade bottom>
                 <div className='quoteDiv'>
                     <p style={{color:'white'}}> Enim in  consectetur eiusod, <span className='quoteText'>
-                        Enim id enim et non  </span> </p>
+                        Enim id enim et non  </span>
+
                     <button className='quoteDivBtn'>Explore</button>
+                    </p>
 
                 </div>
                 </Fade>
+
+                <Fade top >
                 <div className='assistantDiv'>
                     <img className='' src={Assistant} alt='' />
                 </div>
+                </Fade>
 
 
             </div> 
